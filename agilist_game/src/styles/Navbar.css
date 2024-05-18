@@ -1,0 +1,181 @@
+/* Navbar.css */
+.container_navbar {
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .background_navbar {
+    width: 100%;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.25);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navigation_navbar {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .navigation_navbar p {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 500;
+  }
+  
+  .button_navbar {
+    background-color: #F58131;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button_navbar p {
+    margin: 10px 20px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .container_navbar img {
+    height: 75px;
+    margin-right: 50px;
+  }
+  
+  .burger_icon {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1700px) {
+    .navigation_navbar {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 1400px) {
+    .navigation_navbar {
+      font-size: 16px;
+    }
+  
+    .navigation_navbar p {
+      margin-left: 20px;
+    }
+  
+    .button_navbar p {
+      font-size: 14px;
+      margin: 10px 20px;  
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .navigation_navbar {
+      font-size: 14px;
+    }
+  
+    .navigation_navbar p {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  
+    .button_navbar p {
+      font-size: 12px;
+      margin: 7px 18px;
+    }
+  
+    .container_navbar img {
+      height: 50px;
+    }
+  
+    .background_navbar {
+      height: 70px;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .navigation_navbar {
+      font-size: 12px;
+    }
+  
+    .navigation_navbar p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .button_navbar p {
+      font-size: 12px;
+      margin: 5px 15px;
+    }
+  
+    .container_navbar img {
+      height: 40px;
+    }
+  }
+
+  @media (max-width: 750px) {
+    .navigation_navbar {
+      font-size: 10px;
+    }
+  
+    .navigation_navbar p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .button_navbar p {
+      font-size: 10px;
+      margin: 5px 15px;
+    }
+  
+    .container_navbar img {
+      height: 40px;
+    }
+  }
+  
+  @media (max-width: 670px) {
+    .container_navbar {
+        width: 90%;
+      justify-content: space-between;
+    }
+  
+    .navigation_navbar {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      background-color: white;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      box-shadow: 0 5px 30px rgba(0, 0, 0, 0.25);
+      z-index: 1000;
+    }
+  
+    .navigation_navbar.open {
+      display: flex;
+    }
+  
+    .navigation_navbar p {
+      margin: 15px 0;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .button_navbar {
+      margin-bottom: 20px
+    }
+
+    .button_navbar p{
+        margin:10px 50px;
+    }
+  
+    .burger_icon {
+      display: block;
+    }
+  }
+  
