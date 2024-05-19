@@ -1,0 +1,39 @@
+.container_welcome{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    margin-top: 50px;
+}
+
+.part1_welcome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part2_welcome{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text1_welcome{
+    width: 50%;
+}
+
+.text2_welcome{
+    width: 50%;
+}
+
+.title_welcome{
+    font-family: 'Bebas Neue',sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+.desc_welcome{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 26px;
+}
