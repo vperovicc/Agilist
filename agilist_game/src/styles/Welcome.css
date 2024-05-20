@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .part2_welcome{
@@ -30,10 +31,165 @@
 .title_welcome{
     font-family: 'Bebas Neue',sans-serif;
     text-align: center;
-    font-size: 36px;
+    font-size: 48px;
 }
 
 .desc_welcome{
     font-family: 'Montserrat',sans-serif;
-    font-size: 26px;
+    font-size: 28px;
+}
+
+@media (max-width:1720px){
+    .title_welcome{
+        font-size: 42px;
+    }
+
+    .desc_welcome{
+        font-size: 26px;
+    }
+}
+
+@media (max-width:1520px){
+    .container_welcome{
+        width: 90%;
+    }
+}
+
+@media (max-width:1400px){
+    .title_welcome{
+        font-size: 38px;
+    }
+
+    .desc_welcome{
+        font-size: 22px;
+    }
+
+    .part1_welcome img{
+        width: 300px;
+    }
+
+    .part2_welcome img{
+        width: 300px;
+    }
+}
+
+@media (max-width:1200px){
+    .title_welcome{
+        font-size: 38px;
+    }
+
+    .desc_welcome{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1000px){
+    .title_welcome{
+        font-size: 34px;
+    }
+
+    .desc_welcome{
+        font-size: 18px;
+    }
+
+    .part1_welcome img{
+        width: 250px;
+    }
+
+    .part2_welcome img{
+        width: 250px;
+    }
+}
+
+@media (max-width:800px){
+    .title_welcome{
+        font-size: 30px;
+    }
+
+    .desc_welcome{
+        font-size: 16px;
+    }
+
+    .part1_welcome img{
+        width: 250px;
+    }
+
+    .part2_welcome img{
+        width: 250px;
+    }
+}
+
+@media (max-width:670px){
+    .container_welcome{
+        margin-top: 20px;
+    }
+
+    .part1_welcome{
+        flex-direction: column;
+        margin: 0px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .part2_welcome{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .text1_welcome{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .text2_welcome{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .title_welcome{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .desc_welcome{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width:500px){
+    .desc_welcome{
+        font-size: 16px;
+    }
+
+    .title_welcome{
+        font-size: 28px;
+    }
+
+    .part1_welcome img{
+        width: 200px;
+    }
+
+    .part2_welcome img{
+        width: 200px;
+    }
+}
+
+@media (max-width:320px){
+    .desc_welcome{
+        font-size: 14px;
+    }
+
+    .title_welcome{
+        font-size: 24px;
+    }
+
+    .part1_welcome img{
+        width: 170px;
+    }
+
+    .part2_welcome img{
+        width: 170px;
+    }
+
 }

@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Divider from './components/Divider'
 import Objectives from './components/Objectives'
 import Welcome from './components/Welcome'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Welcome/>
       <Divider title='Learning Objectives'/>
       <Objectives/>
+      <Footer/>
     </div>
   )
 }
