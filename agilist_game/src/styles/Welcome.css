@@ -7,6 +7,10 @@
     margin-top: 50px;
 }
 
+.video{
+    width: 50%;
+}
+
 .part1_welcome{
     display: flex;
     justify-content: space-between;
@@ -32,6 +36,7 @@
     font-family: 'Bebas Neue',sans-serif;
     text-align: center;
     font-size: 48px;
+    color: #2B3747;
 }
 
 .desc_welcome{

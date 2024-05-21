@@ -1,6 +1,7 @@
 import React from 'react'
 import Blueprints from '../assets/blueprints.png'
 import '../styles/Welcome.css'
+import VideoTest from '../assets/vslDone.mov'
 
 const Welcome = () => {
   return (
@@ -10,7 +11,9 @@ const Welcome = () => {
                 <p className='title_welcome'>ABOUT THE GAME</p>
                 <p className='desc_welcome'>Exciting world of business and product development awaits you!<br/><br/><br/>Whether you’re a seasoned strategist or a newcomer to the realm of business, you are embarking on this thrilling learning journey.</p>
             </div>
-            <img src={Blueprints}/>
+            <video className='video' controls>
+                <source src={VideoTest} type='video/mp4'/>
+            </video>
         </div>
 
         <div className='part2_welcome'>

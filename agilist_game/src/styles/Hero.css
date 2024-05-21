@@ -20,6 +20,7 @@
     font-size: 110px;
     margin-bottom: 0px;
     margin-top: 0px;
+    color: #2B3747;
 }
 
 .title_hero span{
@@ -46,6 +47,11 @@
     font-size: 30px;
     font-weight: 600;
     padding: 10px 50px;
+}
+
+.container_hero img{
+    max-width: 50%;
+    border-radius: 20px;
 }
 
 @media (max-width:1720px){
@@ -235,6 +241,11 @@
     .container_hero img{
         width: 100%;
         margin: 0px;
+    }
+
+    .container_hero img{
+        width: 100%;
+        border-radius: 20px;
     }
 }
 

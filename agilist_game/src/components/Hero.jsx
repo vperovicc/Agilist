@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Hero.css'
 import Image from '../assets/heroImg.png'
+import HeroTest from '../assets/heroTest.png'
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
             <p className='desc_hero'>Get ready to challenge your wit, employ cunning strategies and ultimately emerge victorious in this business adventure!</p>
             <div className='button_hero'><p>Check it Out</p></div>
         </div>
-        <img src={Image}/>
+        <img src={HeroTest}/>
     </div>
   )
 }
