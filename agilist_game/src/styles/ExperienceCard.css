@@ -1,0 +1,75 @@
+.container_expCard{
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+}
+
+.desc_expCard{
+    width: 90%;
+    font-size: 10px;
+}
+
+.container_expCard img{
+    width: 50px;
+    height: 50px;
+    border-radius: 1000px;
+}
+
+.stuff_expCard{
+    margin-left: 20px;
+    font-family: 'Montserrat',sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+    margin-top: 20px;
+}
+
+@media (max-width:1300px){
+    .container_expCard{
+        
+        height: 250px;
+    }
+}
+
+@media (max-width:1000px){
+    .container_expCard{
+        height: 200px;
+    }
+}
+
+@media (max-width:800px){
+    .container_expCard{
+        height: 150px;
+    }
+}
+
+@media (max-width:670px){
+    .container_expCard{
+        height: 250px;
+    }
+}
+
+@media (max-width:550px){
+    .container_expCard{
+        height: 220px;
+    }
+}
+
+@media (max-width:430px){
+    .container_expCard{
+        height: 180px;
+    }
+}
+
+@media (max-width:350px){
+    .container_expCard{
+        height: 150px;
+    }
+}
