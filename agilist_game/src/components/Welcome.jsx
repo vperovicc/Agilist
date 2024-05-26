@@ -1,11 +1,11 @@
 import React from 'react'
 import Blueprints from '../assets/blueprints.png'
 import '../styles/Welcome.css'
-import VideoTest from '../assets/vslDone.mov'
+import VideoTest from '../assets/agilistMP4.mp4'
 
 const Welcome = () => {
   return (
-    <div className='container_welcome'>
+    <div id='about' className='container_welcome'>
         <div className='part1_welcome'>
             <div className='text1_welcome'>
                 <p className='title_welcome'>ABOUT THE GAME</p>

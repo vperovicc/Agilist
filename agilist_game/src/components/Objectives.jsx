@@ -9,7 +9,7 @@ import Stack from '../assets/stack.png'
 
 const Objectives = () => {
   return (
-    <div className='container_objectives'>
+    <div id='objectives' className='container_objectives'>
         <div className='content_objectives'>
             <img src={Circle}/>
             <div className='text_objectives'>

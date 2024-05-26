@@ -8,6 +8,7 @@ import Welcome from './components/Welcome'
 import Footer from './components/Footer'
 import Calendly from './components/Calendly'
 import Experience from './components/Experience'
+import Pricing from './components/Pricing'
 
 function App() {
 
@@ -19,6 +20,8 @@ function App() {
       <Welcome/>
       <Divider title='Learning Objectives'/>
       <Objectives/>
+      <Divider title='Pricing Models'/>
+      <Pricing/>
       <Divider title='Peoples Experience'/>
       <Experience/>
       <Divider title='Book a Call'/>

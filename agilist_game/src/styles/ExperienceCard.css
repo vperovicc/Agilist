@@ -9,9 +9,14 @@
     align-items: center;
 }
 
+.margin_expCard{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .desc_expCard{
     width: 90%;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .container_expCard img{

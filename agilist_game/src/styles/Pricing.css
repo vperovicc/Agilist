@@ -1,0 +1,502 @@
+.container_pricing{
+    display: flex;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.card_pricing img{
+    position: absolute;
+    top: -130px;
+}
+
+.card_pricing{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.25);
+    margin-left: 15px;
+    margin-right: 15px;
+    height: fit-content;
+    border-radius: 30px;
+}
+
+.title_pricing{
+    font-family: 'Bebas Neue',sans-serif;
+    color: #F58131;
+    font-size: 60px;
+}
+
+.price_pricing{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 64px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.desc_pricing{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 28px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    height: 130px;
+}
+
+.list_pricing{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 22px;
+    text-align: start;
+    height: 140px;   
+}
+
+.blue_pricing{
+    background-color: #4E6480;
+    width: 100%;
+    border-radius: 0px 0px 30px 30px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.button_pricing{
+    background-color: #F58131;
+    width: 60%;
+    margin:10px;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.button_pricing p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media (max-width:1720px){
+
+    .single_pricing{
+        width: 140px;
+    }
+    
+    .double_pricing{
+        width: 280px;
+    }
+
+    .container_pricing img{
+        top: -110px;
+    }
+    .title_pricing{
+        font-size: 54px;
+        margin-bottom: 10px;
+    }
+
+    .price_pricing{
+        font-size: 58;
+    }
+
+    .desc_pricing{
+        height: 90px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1400px){
+
+    .single_pricing{
+        width: 130px;
+    }
+    
+    .double_pricing{
+        width: 260px;
+    }
+
+    .container_pricing img{
+        top: -100px;
+    }
+    
+    .list_pricing{
+        font-size: 18px;
+        height: 120px;
+    }
+
+    .container_pricing{
+        width: 90%;
+    }
+
+    .title_pricing{
+        font-size: 50px;
+    }
+
+    .price_pricing{
+        font-size: 54px;
+    }
+
+    .desc_pricing{
+        font-size: 18px;
+        height: 70px;
+    }
+
+    .button_pricing p{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:1200px){
+
+    .card_pricing{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .list_pricing{
+        font-size: 16px;
+    }
+
+    .single_pricing{
+        width: 120px;
+    }
+    
+    .double_pricing{
+        width: 240px;
+    }
+
+    .container_pricing img{
+        top: -95px;
+    }
+
+    .container_pricing{
+        width: 90%;
+    }
+
+    .title_pricing{
+        font-size: 42px;
+    }
+
+    .price_pricing{
+        font-size: 50px;
+    }
+
+    .desc_pricing{
+        font-size: 16px;
+    }
+
+    .button_pricing p{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:1000px){
+
+    .card_pricing{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .list_pricing{
+        font-size: 14px;
+        height: 90px;
+    }
+
+    .single_pricing{
+        width: 100px;
+    }
+    
+    .double_pricing{
+        width: 200px;
+    }
+
+    .container_pricing img{
+        top: -80px;
+    }
+
+    .container_pricing{
+        width: 90%;
+        margin-top: 120px;
+    }
+
+    .title_pricing{
+        font-size: 36px;
+    }
+
+    .price_pricing{
+        font-size: 48px;
+    }
+
+    .desc_pricing{
+        font-size: 14px;
+        height: 50px;
+    }
+
+    .button_pricing p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:850px){
+
+    .card_pricing{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .list_pricing{
+        font-size: 12px;
+        height: 90px;
+    }
+
+    .single_pricing{
+        width: 80px;
+    }
+    
+    .double_pricing{
+        width: 160px;
+    }
+
+    .container_pricing img{
+        top: -60px;
+    }
+
+    .container_pricing{
+        width: 90%;
+        margin-top: 90px;
+    }
+
+    .title_pricing{
+        font-size: 30px;
+    }
+
+    .price_pricing{
+        font-size: 40px;
+    }
+
+    .desc_pricing{
+        font-size: 12px;
+        height: 50px;
+    }
+
+    .button_pricing p{
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width:750px){
+
+    .single_pricing{
+        width: 70px;
+    }
+    
+    .list_pricing{
+        font-size: 10px;
+        height: 70px;
+    }
+
+    .double_pricing{
+        width: 140px;
+    }
+
+    .container_pricing img{
+        top: -50px;
+    }
+
+    .container_pricing{
+        width: 90%;
+    }
+
+    .title_pricing{
+        font-size: 26px;
+    }
+
+    .price_pricing{
+        font-size: 36px;
+    }
+
+    .desc_pricing{
+        font-size: 10px;
+        height: 40px;
+    }
+
+    .button_pricing p{
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width:670px){
+
+    .single_pricing{
+        width: 120px;
+    }
+
+    .list_pricing{
+        font-size: 22px;
+        height: 150px;
+        margin-top: 30px;
+    }
+    
+    .double_pricing{
+        width: 240px;
+    }
+
+    .container_pricing img{
+        top: -90px;
+    }
+
+    .container_pricing{
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card_pricing{
+        margin: 0px;
+        margin-top: 120px;
+    }
+
+    .title_pricing{
+        font-size: 42px;
+    }
+
+    .price_pricing{
+        font-size: 64px;
+    }
+
+    .desc_pricing{
+        font-size: 24px;
+    }
+
+    .button_pricing p {
+        font-size: 26px;
+    }
+}
+
+@media (max-width:550px){
+
+    .single_pricing{
+        width: 100px;
+    }
+    
+    .list_pricing{
+        font-size: 18px;
+        height: 120px;
+        margin-top: 20px;
+    }
+
+    .double_pricing{
+        width: 200px;
+    }
+
+    .container_pricing img{
+        top: -70px;
+    }
+
+    .title_pricing{
+        font-size: 36px;
+    }
+
+    .price_pricing{
+        font-size: 52px;
+    }
+
+    .desc_pricing{
+        font-size: 20px;
+    }
+
+    .button_pricing p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:450px){
+
+    .single_pricing{
+        width: 80px;
+    }
+    
+    .double_pricing{
+        width: 160px;
+    }
+
+    .list_pricing{
+        font-size: 16px;
+        height: 100px;
+        margin-top: 5px;
+    }
+
+    .container_pricing img{
+        top: -55px;
+    }
+
+    .title_pricing{
+        font-size: 32px;
+    }
+
+    .price_pricing{
+        font-size: 46px;
+    }
+
+    .desc_pricing{
+        font-size: 16px;
+    }
+
+    .button_pricing p {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:320px){
+
+    .single_pricing{
+        width: 60px;
+    }
+
+    .list_pricing{
+        font-size: 12px;
+        height: 80px;
+        margin-top: 0px;
+    }
+    
+    .double_pricing{
+        width: 120px;
+    }
+
+    .card_pricing{
+        margin-top: 60px;
+    }
+
+    .container_pricing img{
+        top: -40px;
+    }
+
+    .title_pricing{
+        font-size: 28px;
+    }
+
+    .price_pricing{
+        font-size: 38px;
+    }
+
+    .desc_pricing{
+        font-size: 12px;
+    }
+
+    .button_pricing p {
+        font-size: 18px;
+    }
+}
