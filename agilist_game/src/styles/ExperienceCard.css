@@ -14,6 +14,10 @@
     padding-right: 10px;
 }
 
+.person_expCard img{
+    object-fit: cover;
+}
+
 .desc_expCard{
     width: 90%;
     font-size: 12px;
@@ -38,43 +42,106 @@
 
 @media (max-width:1300px){
     .container_expCard{
-        
         height: 250px;
+        font-size: 10px;
+    }
+
+    .desc_expCard{
+        font-size: 10px;
     }
 }
 
 @media (max-width:1000px){
     .container_expCard{
         height: 200px;
+        font-size: 8px;
+    }
+
+    .desc_expCard{
+        font-size: 8px;
+    }
+
+    .person_expCard img{
+        width: 40px;
+        height: 40px;
     }
 }
 
 @media (max-width:800px){
     .container_expCard{
         height: 150px;
+        font-size: 6px;
+    }
+
+    .desc_expCard{
+        font-size: 6px;
+    }
+
+    .person_expCard img{
+        width: 30px;
+        height: 30px;
     }
 }
 
 @media (max-width:670px){
     .container_expCard{
         height: 250px;
+        font-size: 10px;
     }
+    .person_expCard img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .desc_expCard{
+        font-size: 10px;
+    }
+
 }
 
 @media (max-width:550px){
     .container_expCard{
         height: 220px;
+        font-size: 9px;
+    }
+    .desc_expCard{
+        font-size: 9px;
+    }
+
+    .person_expCard img{
+        width: 40px;
+        height: 40px;
     }
 }
 
 @media (max-width:430px){
     .container_expCard{
         height: 180px;
+        font-size: 7px;
+    }
+
+    .desc_expCard{
+        font-size: 7px;
+    }
+
+    .person_expCard img{
+        width: 35px;
+        height: 35px;
     }
 }
 
 @media (max-width:350px){
     .container_expCard{
         height: 150px;
+        font-size: 6px;
+    }
+
+    .desc_expCard{
+        font-size: 6px;
+    }
+
+    .person_expCard img{
+        width: 30px;
+        height: 30px;
     }
 }
