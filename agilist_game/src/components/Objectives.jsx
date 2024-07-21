@@ -54,7 +54,7 @@ const Objectives = () => {
             <img src={Arrow}/>
             <div className='text_objectives'>
                 <p className='title_objectives'>ADAPTABILITY AND FLEXIBILITY</p>
-                <p className='desc_objectives'>Players will develop adaptibility and flexibility as they respond to changing scenarios in the game.</p>
+                <p className='desc_objectives'>Players will develop adaptability and flexibility as they respond to changing scenarios in the game.</p>
             </div>
         </div>
     </div>

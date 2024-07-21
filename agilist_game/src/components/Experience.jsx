@@ -2,10 +2,10 @@ import React from 'react'
 import '../styles/Experience.css'
 import Slider from "react-slick";
 import pic1 from '../assets/pic1.png'
-import pic2 from '../assets/pic2.png'
-import pic3 from '../assets/pic3.png'
+import pic2 from '../assets/hero1080p.png'
+import pic3 from '../assets/11080p.png'
 import pic4 from '../assets/pic4.png'
-import pic5 from '../assets/pic5.png'
+import pic5 from '../assets/31080p.png'
 import pic6 from '../assets/pic6.png'
 import pic7 from '../assets/pic7.png'
 
@@ -14,6 +14,10 @@ import AnaGol from '../assets/anagolobocanin.jpg'
 import BojanSmu from '../assets/bojansmudja.jpg'
 import StefanVuc from '../assets/stefanvucicevic.jpg'
 import StefanVuj from '../assets/stefanvujovic.jpg'
+import AnaBoj from '../assets/anaboj.jpg'
+import JelenaJan from '../assets/jelenajan.jpg'
+import JJ from '../assets/jj.png'
+import Bassel from '../assets/bassel.png'
 import { BsArrowLeft } from 'react-icons/bs';
 import ExperienceCard from './ExperienceCard';
 
@@ -22,7 +26,7 @@ import ExperienceCard from './ExperienceCard';
 const Experience = () => {
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -47,7 +51,7 @@ const Experience = () => {
         },
         {
             desc: 'I enjoyed the game for its realistic depiction of my daily role. It provides insight into building products, required seniority roles, budgets, and costs, along with handling security issues, team member sickness, and other blockers. It combines fun and learning in the software development process.',
-          image: pic2,
+          image: AnaBoj,
           name: 'Ana Bojinovic',
           profession: 'IT Project Manager, Biometric Industry',
         },
@@ -62,7 +66,26 @@ const Experience = () => {
             image: AnaGol,
             name: 'Ana Golobocanin',
             profession:'Senior HR Business Partner, Biometric Industry'
-        }
+        },
+        {
+            desc:'An incredibly captivating and enlightening game that simulates project development in a competitive market. Using your knowledge and intuition, you design strategies, take risks, and reshape opportunities towards success. It may even help you find solutions for real-world projects.',
+            image: JelenaJan,
+            name: 'Jelena Janjic',
+            profession:'Senior Operations Manager, Biometric Industry'
+        },
+        {
+          desc:'I observed a group of 12 project managers, divided into 3 groups, playing a creative and innovative game. It helps PM professionals understand the entire process from product development to market placement and the financial outcomes of their decisions. Game enhances strategic thinking, collaboration skills, market awareness, and a goal-oriented approach to work.',
+          image: JJ,
+          name: 'Jelena Janicijevic',
+          profession:'Senior Project Manager, Software Development Industry'
+        },
+        {
+          desc:'This is  an engaging and educational tool that helps players understand agile principles through real-world scenarios. It fosters teamwork, prioritization, and adaptability, making complex concepts accessible and fun. Ideal for both beginners and experienced practitioners, this game enhances agile skills and boosts team collaboration effectively.',
+          image: Bassel,
+          name: 'Bassel Kassem',
+          profession:'PhD, Director of Innovation, Patents and Grants-American University in the Emirates'
+        },
+
       ];
 
   return (

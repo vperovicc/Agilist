@@ -21,9 +21,9 @@ const Footer = () => {
 
         <div className='part2_footer'>
             <div className='social_footer'>
-                <img src={Instagram}/>
-                <img src={LinkedIn}/>
-                <img src={TikTok}/>
+                <a href="https://www.instagram.com/smart_consulting_agency/" target='blank'><img src={Instagram}/></a>
+                <a href='https://www.linkedin.com/company/smart-consulting-agency' target='blank'><img src={LinkedIn}/></a>
+                <a href='https://www.tiktok.com/@smartconsultingagency' target='blank'><img src={TikTok}/></a>
             </div>
             <p className='copyright_footer'>@2024 by Smart Consulting Agency.</p>
         </div>

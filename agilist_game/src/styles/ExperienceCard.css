@@ -20,7 +20,7 @@
 
 .desc_expCard{
     width: 90%;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .container_expCard img{
@@ -47,7 +47,7 @@
     }
 
     .desc_expCard{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
@@ -58,7 +58,8 @@
     }
 
     .desc_expCard{
-        font-size: 8px;
+        font-size: 9px;
+        margin-top: 0px;
     }
 
     .person_expCard img{
@@ -74,7 +75,8 @@
     }
 
     .desc_expCard{
-        font-size: 6px;
+        font-size: 7px;
+        margin-top: 0px;
     }
 
     .person_expCard img{
@@ -94,9 +96,8 @@
     }
 
     .desc_expCard{
-        font-size: 10px;
+        font-size: 12px;
     }
-
 }
 
 @media (max-width:550px){
@@ -105,7 +106,7 @@
         font-size: 9px;
     }
     .desc_expCard{
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .person_expCard img{
@@ -121,7 +122,7 @@
     }
 
     .desc_expCard{
-        font-size: 7px;
+        font-size: 8px;
     }
 
     .person_expCard img{
@@ -137,7 +138,7 @@
     }
 
     .desc_expCard{
-        font-size: 6px;
+        font-size: 7px;
     }
 
     .person_expCard img{

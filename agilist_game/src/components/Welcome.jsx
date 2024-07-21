@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Blueprints from '../assets/blueprints.png'
 import '../styles/Welcome.css'
 import VideoTest from '../assets/agilistMP4.mp4'
@@ -11,7 +11,7 @@ const Welcome = () => {
                 <p className='title_welcome'>ABOUT THE GAME</p>
                 <p className='desc_welcome'>Exciting world of business and product development awaits you!<br/><br/><br/>Whether you’re a seasoned strategist or a newcomer to the realm of business, you are embarking on this thrilling learning journey.</p>
             </div>
-            <video className='video' controls>
+            <video className='video' autoPlay muted playsInline>
                 <source src={VideoTest} type='video/mp4'/>
             </video>
         </div>

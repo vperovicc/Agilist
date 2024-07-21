@@ -6,7 +6,7 @@ import Nikola from '../assets/nikola1v1.png'
 
 const On1 = () => {
   return (
-    <div className='container_on1'>
+    <div id='on1' className='container_on1'>
         <div className='card_on1'>
             <div className='iconwrap_on1'>
                 <img className='double_on1'  src={Oneone}/>

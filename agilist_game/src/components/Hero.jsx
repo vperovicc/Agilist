@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/Hero.css'
-import Image from '../assets/heroImg.png'
-import HeroTest from '../assets/heroTest.png'
+import HeroTest from '../assets/hero1080p.png'
 import {Link as ScrollLink} from 'react-scroll'
 
 const Hero = () => {

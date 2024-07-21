@@ -13,6 +13,7 @@ const Pricing = () => {
         <div className='text_pricing'>
           <p className='title_pricing'>Half-Day Training</p>
           <p className='price_pricing'>$250</p>
+          <p className='per_something'>Per Participant</p>
           <p className='desc_pricing'>Half-day training sessions, designed to elevate your overall proficiency and success.</p>
         </div>
 
@@ -35,6 +36,7 @@ const Pricing = () => {
         <div className='text_pricing'>
           <p className='title_pricing'>Full-Day Training</p>
           <p className='price_pricing'>$320</p>
+          <p className='per_something'>Per Participant</p>
           <p className='desc_pricing'>Full-day training program, filled with knowledge and skills needed for enduring success.</p>
         </div>
 
@@ -57,6 +59,7 @@ const Pricing = () => {
         <div className='text_pricing'>
           <p className='title_pricing'>Trainers Package</p>
           <p className='price_pricing'>$1000</p>
+          <p className='per_something'>Per Trainer</p>
           <p className='desc_pricing'>Take your training to new heights with our all-inclusive package.</p>
           
         </div>

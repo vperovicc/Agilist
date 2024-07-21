@@ -17,11 +17,13 @@ const Navbar = () => {
         <img src={Logo} alt="Logo" className='logo' />
         
         <div className={`navigation_navbar ${menuOpen ? 'open' : ''}`}>
-          <ScrollLink to='hero' smooth={true} duration={1000}><p>Home</p></ScrollLink>
+          
           <ScrollLink to='about' smooth={true} duration={1000}><p>About</p></ScrollLink>
           <ScrollLink to='objectives' smooth={true} duration={1000}><p>Learning Objectives</p></ScrollLink>
           <ScrollLink to='pricing' smooth={true} duration={1000}><p>Pricing Models</p></ScrollLink>
+          <ScrollLink to='on1' smooth={true} duration={1000}><p>1 On 1</p></ScrollLink>
           <ScrollLink to='experience' smooth={true} duration={1000}><p>Peoples Experience</p></ScrollLink>
+          <ScrollLink to='agilistbox' smooth={true} duration={1000}><p>Agilist Box</p></ScrollLink>
           <ScrollLink to='call' smooth={true} duration={1000}><div className='button_navbar'>
             <p>Book a Call</p>
           </div></ScrollLink>

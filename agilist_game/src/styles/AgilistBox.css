@@ -1,0 +1,240 @@
+.content_agilistBox{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    align-items: center;
+    margin-top: 4%;
+
+}
+
+.text_agilistBox{
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.40);
+    border-radius: 30px;
+    width: 45%;
+}
+
+.price_agilistBox{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.howto_agilistBox{
+    font-size: 28px;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.howto_title_agilistBox{
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: #F58131;
+}
+
+.price_title_agilistBox{
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: #F58131;
+}
+
+.content_agilistBox img{
+    width: 50%;
+    border-radius: 30px;
+}
+
+@media (max-width:1720px){
+    .price_title_agilistBox{
+        font-size: 30px;
+    }
+
+    .howto_title_agilistBox{
+        font-size: 30px;
+    }
+
+    .howto_agilistBox{
+        font-size: 26px;
+    }
+
+    .price_agilistBox{
+        font-size: 36px;
+    }
+}
+@media (max-width:1520px){
+    .content_agilistBox{
+        width: 90%;
+    }
+}
+@media (max-width:1400px){
+    .price_title_agilistBox{
+        font-size: 26px;
+    }
+
+    .howto_title_agilistBox{
+        font-size: 26px;
+    }
+
+    .howto_agilistBox{
+        font-size: 22px;
+    }
+
+    .price_agilistBox{
+        font-size: 30px;
+    }
+}
+@media (max-width:1200px){
+    .price_title_agilistBox{
+        font-size: 24px;
+    }
+
+    .howto_title_agilistBox{
+        font-size: 24px;
+    }
+
+    .howto_agilistBox{
+        font-size: 20px;
+    }
+
+    .price_agilistBox{
+        font-size: 28px;
+    }
+}
+@media (max-width:1000px){
+    .price_title_agilistBox{
+        font-size: 20px;
+    }
+
+    .howto_title_agilistBox{
+        font-size: 20px;
+    }
+
+    .howto_agilistBox{
+        font-size: 16px;
+    }
+
+    .price_agilistBox{
+        font-size: 26px;
+    }
+}
+@media (max-width:900px){
+    .price_title_agilistBox{
+        font-size: 18px;
+    }
+
+    .howto_title_agilistBox{
+        font-size: 18px;
+    }
+
+    .howto_agilistBox{
+        font-size: 14px;
+    }
+
+    .price_agilistBox{
+        font-size: 22px;
+    }
+}
+@media (max-width:800px){
+    .price_title_agilistBox{
+        font-size: 16px;
+    }
+
+    .howto_title_agilistBox{
+        font-size: 16px;
+    }
+
+    .howto_agilistBox{
+        font-size: 12px;
+    }
+
+    .price_agilistBox{
+        font-size: 20px;
+    }
+}
+@media (max-width:670px){
+    .content_agilistBox{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .content_agilistBox img{
+        width: 90%;
+    }
+
+    .text_agilistBox{
+        width: 90%;
+        margin-top: 5%;
+    }
+
+    .price_title_agilistBox{
+        font-size: 24px;
+    }
+
+    .howto_title_agilistBox{
+        font-size: 24px;
+    }
+
+    .howto_agilistBox{
+        font-size: 20px;
+    }
+
+    .price_agilistBox{
+        font-size: 28px;
+    }
+}
+@media (max-width:550px){
+    .price_title_agilistBox{
+        font-size: 22px;
+    }
+
+    .howto_title_agilistBox{
+        font-size: 22px;
+    }
+
+    .howto_agilistBox{
+        font-size: 18px;
+    }
+
+    .price_agilistBox{
+        font-size: 26px;
+    }
+}
+@media (max-width:400px){
+    .price_title_agilistBox{
+        font-size: 18px;
+    }
+
+    .howto_title_agilistBox{
+        font-size: 18px;
+    }
+
+    .howto_agilistBox{
+        font-size: 14px;
+    }
+
+    .price_agilistBox{
+        font-size: 22px;
+    }
+}
+@media (max-width:300px){
+    .price_title_agilistBox{
+        font-size: 16px;
+    }
+
+    .howto_title_agilistBox{
+        font-size: 16px;
+    }
+
+    .howto_agilistBox{
+        font-size: 12px;
+    }
+
+    .price_agilistBox{
+        font-size: 20px;
+    }
+}
