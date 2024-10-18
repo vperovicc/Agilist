@@ -8,21 +8,21 @@ const Counter = () => {
             <p className='text_counter'>
             Workshop and Trainings Held
             </p>
-            <p className='number_counter'>10+</p>
+            <p className='number_counter'>12+</p>
         </div>
 
         <div className='seperate_counter'>
             <p className='text_counter'>
             Attendees
             </p>
-            <p className='number_counter'>50+</p>
+            <p className='number_counter'>65+</p>
         </div>
 
         <div className='seperate_counter'>
             <p className='text_counter'>
             Certifications Issued
             </p>
-            <p className='number_counter'>15+</p>
+            <p className='number_counter'>30+</p>
         </div>
     </div>
   )

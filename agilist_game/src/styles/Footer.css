@@ -58,7 +58,9 @@
 
 .social_footer{
     display: flex;
+    align-items: center;
 }
+
 
 .social_footer img{
     margin-left: 20px;
@@ -78,7 +80,12 @@
         font-size: 18px;
     }
 
-    .social_footer img{
+    .youtubeIcon{
+        width: 50px;
+        height: 40px;
+    }
+
+    .classicIcon{
         width: 40px;
         height: 40px;
     }
@@ -101,7 +108,12 @@
         font-size: 14px;
     }
 
-    .social_footer img{
+    .youtubeIcon{
+        width: 40px;
+        height: 30px;
+    }
+
+    .classicIcon{
         width: 30px;
         height: 30px;
     }
@@ -135,10 +147,18 @@
     }
 
     .social_footer img{
-        width: 25px;
-        height: 25px;
         margin-left: 10px;
         margin-right: 5px;
+    }
+
+    .youtubeIcon{
+        width: 35px;
+        height: 25px;
+    }
+
+    .classicIcon{
+        width: 25px;
+        height: 25px;
     }
 
     .copyright_footer{
@@ -197,7 +217,12 @@
         font-size: 12px;
     }
 
-    .social_footer img{
+    .youtubeIcon{
+        width: 30px;
+        height: 20px;
+    }
+
+    .classicIcon{
         width: 20px;
         height: 20px;
     }

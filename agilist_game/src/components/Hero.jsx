@@ -11,7 +11,7 @@ const Hero = () => {
             <p className='desc_hero'>Get ready to challenge your wit, employ cunning strategies and ultimately emerge victorious in this business adventure!</p>
             <div className='button_hero'><ScrollLink to='experience' smooth={true} duration={1000} ><p>Check it Out</p></ScrollLink></div>
         </div>
-        <img src={HeroTest}/>
+        <img src={HeroTest} alt='Hero Image'/>
     </div>
   )
 }

@@ -9,12 +9,12 @@ const On1 = () => {
     <div id='on1' className='container_on1'>
         <div className='card_on1'>
             <div className='iconwrap_on1'>
-                <img className='double_on1'  src={Oneone}/>
+                <img className='double_on1'  src={Oneone} alt='All Characters'/>
             </div>
                 
             <div className='text_on1'>
                 <p className='title_on1'>Personal Coaching</p>
-                <img className='nikola_on1'  src={Nikola}/>
+                <img className='nikola_on1'  src={Nikola} alt='Nikola'/>
                 <p className='desc_on1'>If you have an idea you'd like to turn into a product, you can arrange a call to explore how Nikola and his team can assist you.</p>
             </div>
             <div className='list_on1'>

@@ -9,10 +9,10 @@ const Pics = () => {
   return (
     <div className='bg_pics'>
         <div className='container_pics'>
-                <img src={Pic1_Pics}/>
-                <img src={Pic2_Pics}/>
-                <img src={Pic3_Pics}/>
-                <img src={Pic4_Pics}/>
+                <img src={Pic1_Pics} alt='pic1'/>
+                <img src={Pic2_Pics} alt='pic2'/>
+                <img src={Pic3_Pics} alt='pic3'/>
+                <img src={Pic4_Pics} alt='pic4'/>
         </div>
     </div>
   )

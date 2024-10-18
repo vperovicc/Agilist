@@ -9,10 +9,10 @@ const Pricing = () => {
   return (
     <div className='container_pricing'>
       <div className='card_pricing'>
-        <img id='pricing' className='single_pricing'  src={Single1}/>
+        <img id='pricing' className='single_pricing'  src={Single1} alt='Ninja'/>
         <div className='text_pricing'>
           <p className='title_pricing'>Half-Day Training</p>
-          <p className='price_pricing'>$250</p>
+          <p className='price_pricing'>$100</p>
           <p className='per_something'>Per Participant</p>
           <p className='desc_pricing'>Half-day training sessions, designed to elevate your overall proficiency and success.</p>
         </div>
@@ -32,10 +32,10 @@ const Pricing = () => {
       </div>
 
       <div className='card_pricing'>
-      <img className='single_pricing'  src={Single2}/>
+      <img className='single_pricing'  src={Single2} alt='Brute'/>
         <div className='text_pricing'>
           <p className='title_pricing'>Full-Day Training</p>
-          <p className='price_pricing'>$320</p>
+          <p className='price_pricing'>$140</p>
           <p className='per_something'>Per Participant</p>
           <p className='desc_pricing'>Full-day training program, filled with knowledge and skills needed for enduring success.</p>
         </div>
@@ -55,7 +55,7 @@ const Pricing = () => {
       </div>
 
       <div className='card_pricing'>
-      <img className='double_pricing'  src={Double}/>
+      <img className='double_pricing'  src={Double} alt='Knight and Mask'/>
         <div className='text_pricing'>
           <p className='title_pricing'>Trainers Package</p>
           <p className='price_pricing'>$1000</p>

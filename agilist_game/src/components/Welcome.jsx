@@ -17,7 +17,7 @@ const Welcome = () => {
         </div>
 
         <div className='part2_welcome'>
-            <img src={Blueprints}/>
+            <img src={Blueprints} alt='Blueprints'/>
             <div className='text2_welcome'>
                 <p className='title_welcome'>GOAL OF THE GAME</p>
                 <p className='desc_welcome'>The primary goal of the game is to be the player with the highest Profit at the end of the last iteration. Maximum duration of the game is 20 iterations.<br/><br/><br/>Agilist players will compete in product development, team management, testing their decision-making skills, strategic planning, and adaptability along the way.</p>

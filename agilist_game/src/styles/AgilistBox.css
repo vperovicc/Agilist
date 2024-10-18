@@ -7,7 +7,30 @@
     font-family: 'Montserrat';
     align-items: center;
     margin-top: 4%;
+}
 
+.linkAgilistBox{
+    text-decoration: none;
+}
+
+.button_agilistBox{
+    font-family: 'Montserrat';
+    background-color: #F58131;
+    border-radius: 100px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.button_agilistBox p{
+    color: #fff;
+    display: flex;
+    font-weight: 600;
+    font-size: 42px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
 .text_agilistBox{
@@ -53,6 +76,12 @@
     .price_title_agilistBox{
         font-size: 30px;
     }
+    
+    .button_agilistBox p{        
+        font-weight: 600;
+        font-size: 32px;
+        padding: 15px;
+    }
 
     .howto_title_agilistBox{
         font-size: 30px;
@@ -70,10 +99,22 @@
     .content_agilistBox{
         width: 90%;
     }
+
+    .button_agilistBox p{        
+        font-weight: 600;
+        font-size: 28px;
+        padding: 15px;
+    }
 }
 @media (max-width:1400px){
     .price_title_agilistBox{
         font-size: 26px;
+    }
+
+    .button_agilistBox p{        
+        font-weight: 600;
+        font-size: 26px;
+        padding: 15px;
     }
 
     .howto_title_agilistBox{
@@ -93,6 +134,12 @@
         font-size: 24px;
     }
 
+    .button_agilistBox p{        
+        font-weight: 600;
+        font-size: 24px;
+        padding: 13px;
+    }
+
     .howto_title_agilistBox{
         font-size: 24px;
     }
@@ -108,6 +155,12 @@
 @media (max-width:1000px){
     .price_title_agilistBox{
         font-size: 20px;
+    }
+
+    .button_agilistBox p{        
+        font-weight: 600;
+        font-size: 22px;
+        padding: 12px;
     }
 
     .howto_title_agilistBox{
@@ -127,6 +180,12 @@
         font-size: 18px;
     }
 
+    .button_agilistBox p{        
+        font-weight: 600;
+        font-size: 20px;
+        padding: 12px;
+    }
+
     .howto_title_agilistBox{
         font-size: 18px;
     }
@@ -142,6 +201,12 @@
 @media (max-width:800px){
     .price_title_agilistBox{
         font-size: 16px;
+    }
+
+    .button_agilistBox p{        
+        font-weight: 600;
+        font-size: 18px;
+        padding: 11px;
     }
 
     .howto_title_agilistBox{
@@ -160,6 +225,12 @@
     .content_agilistBox{
         flex-direction: column;
         width: 100%;
+    }
+
+    .button_agilistBox p{        
+        font-weight: 600;
+        font-size: 26px;
+        padding: 15px;
     }
 
     .content_agilistBox img{
@@ -192,6 +263,12 @@
         font-size: 22px;
     }
 
+    .button_agilistBox p{        
+        font-weight: 600;
+        font-size: 24px;
+        padding: 15px;
+    }
+
     .howto_title_agilistBox{
         font-size: 22px;
     }
@@ -207,6 +284,12 @@
 @media (max-width:400px){
     .price_title_agilistBox{
         font-size: 18px;
+    }
+
+    .button_agilistBox p{        
+        font-weight: 600;
+        font-size: 22px;
+        padding: 13px;
     }
 
     .howto_title_agilistBox{

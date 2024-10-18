@@ -1,0 +1,215 @@
+.container_orderForm {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('../assets/agilistBox.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.confirmation_message {
+    color: #2B3747;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+
+.form_orderForm {
+    margin-top: 50px;
+    background-color: #F58131;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    color: #2B3747;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.form1_orderForm {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.input1_orderForm {
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+.input1_orderForm:focus {
+    border-color: #ff7043;
+    outline: none;
+}
+
+.separate_orderForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.button_orderForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #ffffff;
+    color: #F58131;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button_orderForm:hover {
+    background-color: #2B3747;
+    color: #ffffff;
+}
+
+.button_orderForm p {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+@media (max-width:1720px){
+    .form_orderForm {
+        max-width: 400px;
+        margin-top: 5%;
+    }
+}
+@media (max-width:1400px){
+    .form_orderForm {
+        max-width: 380px;
+        margin-top: 5%;
+    }
+}
+@media (max-width:1200px){
+    .form_orderForm {
+        max-width: 350px;
+        margin-top: 5%;
+    }
+
+    .input1_orderForm {
+        height: 35px;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:1000px){
+    .form_orderForm {
+        max-width: 320px;
+        margin-top: 5%;
+        margin-left: 0px;
+    }
+
+    .input1_orderForm {
+        height: 30px;
+        margin-bottom: 15px;
+    }
+
+    .container_orderForm {
+        align-items: center;
+    }
+}
+@media (max-width:900px){
+    .form_orderForm {
+        max-width: 300px;
+        margin-top: 5%;
+    }
+
+    .input1_orderForm {
+        height: 28px;
+        margin-bottom: 12px;
+    }
+}
+@media (max-width:800px){
+    .form_orderForm {
+        max-width: 300px;
+        margin-top: 5%;
+    }
+
+    .input1_orderForm {
+        height: 28px;
+        margin-bottom: 12px;
+    }
+}
+@media (max-width:670px){
+    .form_orderForm {
+        max-width: 380px;
+        margin-top: 5%;
+    }
+
+    .input1_orderForm {
+        height: 30px;
+        margin-bottom: 15px;
+    }
+
+    .form_orderForm {
+        padding: 40px;
+    }
+}
+
+@media (max-width:500px){
+    .form_orderForm {
+        max-width: 300px;
+        margin-top: 5%;
+    }
+
+    .input1_orderForm {
+        height: 30px;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media (max-width:400px){
+    .form_orderForm {
+        max-width: 250px;
+        margin-top: 5%;
+    }
+
+    .input1_orderForm {
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .form_orderForm {
+        padding: 20px;
+    }
+}
+@media (max-width:300px){
+    .form_orderForm {
+        max-width: 220px;
+        margin-top: 5%;
+    }
+
+    .input1_orderForm {
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .form_orderForm {
+        padding: 20px;
+    }
+}

@@ -112,13 +112,13 @@ const Experience = () => {
                 <p className='title_exp'>Experience</p>
                 
                 <Slider className='slider_container' {...settings}>
-                    <div className='wrap_pic'><img className='slider_pic' src={pic1}/></div>
-                    <div className='wrap_pic'><img className='slider_pic' src={pic2}/></div>
-                    <div className='wrap_pic'><img className='slider_pic' src={pic3}/></div>
-                    <div className='wrap_pic'><img className='slider_pic' src={pic4}/></div>
-                    <div className='wrap_pic'><img className='slider_pic' src={pic5}/></div>
-                    <div className='wrap_pic'><img className='slider_pic' src={pic6}/></div>
-                    <div className='wrap_pic'><img className='slider_pic' src={pic7}/></div>
+                    <div className='wrap_pic'><img className='slider_pic' src={pic1} alt='pic1'/></div>
+                    <div className='wrap_pic'><img className='slider_pic' src={pic2} alt='pic2'/></div>
+                    <div className='wrap_pic'><img className='slider_pic' src={pic3} alt='pic3'/></div>
+                    <div className='wrap_pic'><img className='slider_pic' src={pic4} alt='pic4'/></div>
+                    <div className='wrap_pic'><img className='slider_pic' src={pic5} alt='pic5'/></div>
+                    <div className='wrap_pic'><img className='slider_pic' src={pic6} alt='pic6'/></div>
+                    <div className='wrap_pic'><img className='slider_pic' src={pic7} alt='pic7'/></div>
                 </Slider>
             </div>
         </div>

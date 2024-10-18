@@ -1,16 +1,18 @@
 import React from 'react'
 import '../styles/AgilistBox.css'
-import Slika from '../assets/pic7.png'
+import Slika from '../assets/agilistBox.jpg'
+import {Link} from 'react-router-dom';
 
 const AgilistBox = () => {
   return (
     <div id='agilistbox' className='content_agilistBox'>
-        <img src={Slika} />
+        <img src={Slika} alt='Agilist Box'/>
         <div className='text_agilistBox'>
             <p className='price_title_agilistBox'>Price:</p>
-            <p className='price_agilistBox'>10.000rsd + VAT(20%)</p>
-            <p className='howto_title_agilistBox'>How to order:</p>
-            <p className='howto_agilistBox'>Please reach out to Nikola via <strong>nikola@smartconsulting-agency.com</strong> for inquire about purchasing the Agile Business Game box.</p>
+            <p className='price_agilistBox'>8.000rsd + VAT(20%)</p>
+            <Link className='linkAgilistBox' to='/orderForm'><div className='button_agilistBox'> 
+              <p>Order Now</p>
+            </div></Link>
         </div>
     </div>
   )
